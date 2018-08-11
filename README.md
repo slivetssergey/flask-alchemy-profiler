@@ -10,7 +10,7 @@ git clone https://github.com/slivetssergey/flask-alchemy-profiler.git
 
 ###Initialization
 ```python
-from profiler import FlaskProfiler
+from flask_alchemy_profiler import FlaskProfiler
 profiler = FlaskProfiler()
 
 def create_app(config_class=Config):
