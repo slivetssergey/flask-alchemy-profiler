@@ -7,14 +7,14 @@ from setuptools import setup
 
 setup(
     name='Flask-SQLAlchemy-Profiler',
-    version='0.0.7',
+    version='0.0.1',
     url='https://github.com/slivetssergey/flask-alchemy-profiler',
     license='BSD',
     author='RST-IT',
     author_email='slivetssergey@gmail.com',
     description='Profiler for Flask and SQLAlchemy',
     long_description=__doc__,
-    packages=['flask_alchemy_profiler'],
+    packages=['flask_alchemy_profiler', 'flask_alchemy_profiler.templates'],
     zip_safe=False,
     include_package_data=True,
     platforms='any',
